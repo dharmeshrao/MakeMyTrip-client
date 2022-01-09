@@ -6,7 +6,7 @@ export const Search = () => {
   const [dataa, setData] = useState([]);
   const handleSelect = async (select) => {
         const data = await fetch(
-          `http://api.aviationstack.com/v1/flights?limit=100&dep_iata=${select.from}&arr_iata=${select.to}&access_key=89feda8620b7905d1b2836c9d6f1f5b6
+          `https://github.com/dharmeshrao/mmtvercel/blob/main/abc.json
           `
         );
         let ans = await data.json();
