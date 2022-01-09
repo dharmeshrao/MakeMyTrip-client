@@ -42,7 +42,7 @@ export const Search = () => {
       let y = JSON.parse(x);
       let promise = async () => {
         const data = await fetch(
-          `http://api.aviationstack.com/v1/flights?limit=100&dep_iata=${y.from}&arr_iata=${y.to}&access_key=89feda8620b7905d1b2836c9d6f1f5b6
+          `https://github.com/dharmeshrao/mmtvercel/blob/main/abc.json
           `
         );
         let ans = await data.json();
