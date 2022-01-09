@@ -1,70 +1,156 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Logo](https://imgak.mmtcdn.com/pwa_v3/pwa_hotel_assets/header/mmtLogoWhite.png)
 
-## Available Scripts
+# Clone of Make my Trip
 
-In the project directory, you can run:
+# Technology we use
 
-### `npm start`
+## Backend
+- Node Js
+- Express
+- MongoDB
+- Nodemailer
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Frontend
+- React
+- Material UI
+- Styled- components
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Apis
 
-### `npm test`
+### Realtime flight search
+Aviation Stack - [ aviationstack.com/](https://aviationstack.com/) 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Otp Varification
+Twilio -  [twilio.com/](https://www.twilio.com/) 
 
-### `npm run build`
+### Payment Gateway
+Razorpay -  [razorpay.com/](https://razorpay.com/) 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Mail Service 
+NodeMailer -  [nodemailer.com/](https://nodemailer.com/) 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Color Reference
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| Primary Color  | ![#eb2226](https://via.placeholder.com/10/eb2226?text=+) #eb2226 |
+| Backgroud color | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+| Icons color and button color| ![#48a6fd](https://via.placeholder.com/10/48a6fd?text=+) #48a6fd |
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Run Locally
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Clone the project
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+  git clone https://link-to-project
+```
 
-## Learn More
+Go to the project directory
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+  cd backend/frontend
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Install dependencies
 
-### Code Splitting
+```bash
+  npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Start the server
 
-### Analyzing the Bundle Size
+```bash
+  npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+## Environment Variables
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+To run this project, you will need to add the following environment variables to your .env file
 
-### Advanced Configuration
+### Backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+`mongo` - database
 
-### Deployment
+`port` - running port
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+`RAZORPAY_KEY_ID`
 
-### `npm run build` fails to minify
+`RAZORPAY_KEY_SECRET`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+`CURRENT_ENVIRONMENT`
+
+`SMTP_USERNAME`
+
+`SMTP_PASSWORD`
+
+`SMTP_PORT`
+
+
+### Frontend
+
+`RAZORPAY_KEY_ID`
+
+`RAZORPAY_KEY_SECRET`
+
+`PORT`
+
+
+## Features
+
+- Login and Sign up using Mobile OTP
+- Search engine to search Flights
+- Sorting of flights as his price
+- Apply the coupon on your cart 
+- Purchase the Product
+- Do payment with any type of method(Card/UPI/Net-banking)
+
+
+## Acknowledgements
+
+ - [makemytrip.com](https://www.makemytrip.com/)
+ - [Masai School](https://masaischool.com/)
+  
+
+## Authors
+
+-  [Arpit Sachan](https://github.com/sachanarpit/)
+
+- [Dharmesh Yadav](https://github.com/dharmeshrao)
+
+- [Rahul Kumar Yadav](https://github.com/rahulyadav96)
+
+
+## Home Page
+
+
+![screencapture-localhost-3005-2021-11-13-20_06_05.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636819763376/zjIHEBDE0.png)
+
+
+## Login and Otp verification
+
+![Screenshot (39).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636819827776/BVzkKdcMk.png)
+![Screenshot (40).png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636819833599/lmidFgXps.png)
+![e5af704b-7928-4a7a-862f-98b69ef92d5b.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1636819849756/g819xGufS.jpeg)
+
+
+## Search Page
+
+![screencapture-localhost-3005-search-2021-11-13-20_08_52.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636819783064/o0BPrMowgc.png)
+![Screenshot (42)](https://user-images.githubusercontent.com/87421773/141656488-8910d26d-c2e8-4678-92e5-4d00641ecdac.png)
+
+##Payment Page
+
+![screencapture-localhost-3005-checkout-2021-11-13-20_53_49](https://user-images.githubusercontent.com/87421773/141656572-8077485c-c55a-4a89-a26a-5e0d714d4d46.png)
+
+![screencapture-localhost-3005-final-2021-11-13-20_10_22.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636819919150/eUj6IOOoc.png)
+
+![screencapture-localhost-3005-final-2021-11-13-20_10_48.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636819925472/eRRCvR1Dr.png)
+
+![image.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1636819997027/85PGB_l7i.png)
+
+
+- GITHUB - https://github.com/sachanarpit/make-my-trip
