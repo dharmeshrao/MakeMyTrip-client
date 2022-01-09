@@ -6,7 +6,7 @@ export const Search = () => {
   const [dataa, setData] = useState([]);
   const handleSelect = async (select) => {
         const data = await fetch(
-          `https://github.com/dharmeshrao/mmtvercel/blob/main/abc.json
+          `https://raw.githubusercontent.com/dharmeshrao/mmtvercel/main/db.json
           `
         );
         let ans = await data.json();
@@ -42,7 +42,7 @@ export const Search = () => {
       let y = JSON.parse(x);
       let promise = async () => {
         const data = await fetch(
-          `https://github.com/dharmeshrao/mmtvercel/blob/main/abc.json
+          `https://raw.githubusercontent.com/dharmeshrao/mmtvercel/main/db.json
           `
         );
         let ans = await data.json();
